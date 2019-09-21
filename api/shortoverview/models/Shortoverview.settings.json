@@ -1,0 +1,22 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "shortoverview",
+    "description": "A short overview over a blog entry, to get the most important information in a few seconds"
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "rating": {
+      "type": "integer"
+    },
+    "time-needed": {
+      "type": "integer"
+    },
+    "time-recommended": {
+      "type": "integer"
+    }
+  }
+}

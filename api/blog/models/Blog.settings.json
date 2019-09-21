@@ -1,0 +1,32 @@
+{
+  "connection": "default",
+  "collectionName": "blog",
+  "info": {
+    "name": "blog",
+    "description": "A full blog entry"
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    },
+    "preview-image": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
+    "pictures": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
+    "shortoverview": {
+      "model": "shortoverview"
+    }
+  }
+}

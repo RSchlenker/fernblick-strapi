@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/shortoverviews",
+      "handler": "Shortoverview.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/shortoverviews/count",
+      "handler": "Shortoverview.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/shortoverviews/:_id",
+      "handler": "Shortoverview.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/shortoverviews",
+      "handler": "Shortoverview.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/shortoverviews/:_id",
+      "handler": "Shortoverview.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/shortoverviews/:_id",
+      "handler": "Shortoverview.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
